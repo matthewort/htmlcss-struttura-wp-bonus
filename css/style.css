@@ -131,12 +131,14 @@ footer {
   font-size: 18px;
   padding: 30px;
   font-family: georgia, times;
+  padding-bottom: 20px;
 }
 
 /* fonte e link */
 #source {
-  padding: -60px;
+  padding-top: 10px;
   padding-left: 30px;
+  padding-bottom: 20px;
   font-family: georgia, times;
 }
 
