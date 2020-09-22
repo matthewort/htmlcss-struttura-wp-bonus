@@ -1,0 +1,97 @@
+/* regole generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+/* pagina */
+#container {
+  width: 80%;
+  margin: 20px auto;
+  /* debug */
+  /* height: 200px;
+  background-color: blue; */
+  /* fine debug */
+}
+
+/* header */
+header {
+  /* debug */
+  height: 200px;
+  background-color: yellow;
+  margin-bottom: 20px;
+  /* fine debug */
+}
+
+/* parte centrale */
+main {
+  /* debug */
+  height: 600px;
+  margin-bottom: 20px;
+  /* background-color: green; */
+  /* fine debug */
+}
+
+/* classe main */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* struttura a sinistra */
+#aside-left {
+  float: left;
+  width: 27%;
+  margin: auto;
+  /* debug */
+  height: 500px;
+  /* background-color: brown; */
+  /* fine debug */
+}
+
+.pink-box1 {
+  height: 400px;
+  background-color: pink;
+  margin-bottom: 20px;
+}
+
+/* struttura centrale */
+section {
+  float: left;
+  width: 40%;
+  margin: 0 3%;
+  /* debug */
+  height: 100%;
+  background-color: purple;
+  /* fine debug */
+}
+
+/* struttura a destra */
+#aside-right {
+  float: right;
+  width: 27%;
+  margin: auto;
+  /* debug */
+  height: 500px;
+  /* background-color: brown; */
+  /* fine debug */
+}
+
+.pink-box2 {
+  height: 280px;
+  background-color: pink;
+  margin-bottom: 20px;
+}
+
+/* parte sotto */
+footer {
+  /* debug */
+  height: 200px;
+  background-color: lightblue;
+  /* fine debug */
+}
