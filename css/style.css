@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: white;
+  background-image: url("https://cdnb.artstation.com/p/assets/images/images/015/450/213/large/nicholas-andy-wood.jpg?1548368041");
 }
 /* pagina */
 #container {
@@ -22,9 +22,20 @@ body {
 header {
   /* debug */
   height: 200px;
-  background-color: yellow;
+  width: auto;
+  background-image: url("https://cafans.b-cdn.net/images/Category_3946/subcat_152475/QS7ObEHB_1705180908541gpadd.JPG");
+  background-repeat: no-repeat;
   margin-bottom: 20px;
   /* fine debug */
+}
+
+#john {
+  font-size: 80px;
+  text-align: center;
+  padding: 40px;
+  color: white;
+  text-decoration: underline;
+  font-family: georgia, times;
 }
 
 /* parte centrale */
@@ -56,7 +67,8 @@ main {
 
 .pink-box1 {
   height: 400px;
-  background-color: pink;
+  background-image: url("https://www.demilked.com/magazine/wp-content/uploads/2014/08/creepy-childhood-monsters-sticky-notes-don-kenn-1.jpg");
+  background-repeat: no-repeat;
   margin-bottom: 20px;
 }
 
@@ -67,8 +79,14 @@ section {
   margin: 0 3%;
   /* debug */
   height: 100%;
-  background-color: purple;
+  background-color: rgb(255,229,179);
   /* fine debug */
+}
+
+#bio {
+  font-size: 30px;
+  font-family: georgia, times;
+  padding: 28px;
 }
 
 /* struttura a destra */
@@ -84,14 +102,37 @@ section {
 
 .pink-box2 {
   height: 280px;
-  background-color: pink;
+  background-image: url("https://fivefathomhome.files.wordpress.com/2020/02/jkm4.jpg?w=700");
   margin-bottom: 20px;
 }
+
+.pink-box3 {
+  height: 280px;
+  background-image: url("https://wowxwow.com/wp-content/uploads/2014/08/JKMortensen-402.jpg");
+  margin-bottom: 20px;
+}
+
 
 /* parte sotto */
 footer {
   /* debug */
   height: 200px;
-  background-color: lightblue;
+  background-color: rgb(255,253,208);
   /* fine debug */
+}
+
+#quotation {
+  font-size: 18px;
+  padding: 30px;
+  font-family: georgia, times;
+}
+
+#source {
+  padding: -60px;
+  padding-left: 30px;
+  font-family: georgia, times;
+}
+
+#link:hover {
+  color: brown;
 }
