@@ -29,6 +29,7 @@ header {
   /* fine debug */
 }
 
+/* titolo */
 #john {
   font-size: 80px;
   text-align: center;
@@ -65,6 +66,7 @@ main {
   /* fine debug */
 }
 
+/* riquadro1 */
 .pink-box1 {
   height: 400px;
   background-image: url("https://www.demilked.com/magazine/wp-content/uploads/2014/08/creepy-childhood-monsters-sticky-notes-don-kenn-1.jpg");
@@ -83,6 +85,7 @@ section {
   /* fine debug */
 }
 
+/* biografia */
 #bio {
   font-size: 30px;
   font-family: georgia, times;
@@ -100,12 +103,14 @@ section {
   /* fine debug */
 }
 
+/* riquadro2 */
 .pink-box2 {
   height: 280px;
   background-image: url("https://fivefathomhome.files.wordpress.com/2020/02/jkm4.jpg?w=700");
   margin-bottom: 20px;
 }
 
+/* riquadro3 */
 .pink-box3 {
   height: 280px;
   background-image: url("https://wowxwow.com/wp-content/uploads/2014/08/JKMortensen-402.jpg");
@@ -121,12 +126,14 @@ footer {
   /* fine debug */
 }
 
+/* citazione */
 #quotation {
   font-size: 18px;
   padding: 30px;
   font-family: georgia, times;
 }
 
+/* fonte e link */
 #source {
   padding: -60px;
   padding-left: 30px;
